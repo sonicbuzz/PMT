@@ -5,17 +5,17 @@
         <link rel="stylesheet" href="loginstyle.css">
     </head>
     <body>
-        <form>
-            <label for="username">User Name</label>
-            <input type="text" id="username" name="username">
-            <label for="passcode">Passcode</label>
-            <input type="password" id="pwd" name="passcode">
-            <a href="passcode-recovery.html">Forgot Passcode?</a>
-            <button type="button">Login</button>
-            <a href="signup.html">Not a member?</a>
-
-
-        </form>
+        <div class="login-info">
+            <div class="form">
+                <form>
+                    <div id="uname"><label class="login" for="username">User Name <input type="text" id="username" name="username"></label></div>
+                    <div id="pcode"><label class="login" for="passcode">Passcode <input type="password" id="pwd" name="passcode"></label></div>
+                    <div id="forgotlink"><a class="login" href="passcode-recovery.html">Forgot Passcode?</a></div>
+                    <div id="lbutton"><button class="login" type="button">Login</button></div>
+                    <div id="suplink"><a class="login" href="signup.html">Signup</a></div>  
+                </form>
+            </div>
+        </div>
         <script src="" async defer></script>
     </body>
 </html>
