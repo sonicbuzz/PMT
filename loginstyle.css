@@ -1,6 +1,5 @@
 body{
     background-color: #8EACCD;
-    
 }
 .login{
     display: block;
@@ -8,12 +7,15 @@ body{
 .login-info{
     border: 25px;
     position: relative;
-    top:500px;
+    top:480px;
 }
 .form{
     position: absolute;
     left: 20px;
     padding: 10px;
+}
+#uname{
+    text-align: right;
 }
 #pcode{
     padding-top: 10px;
